@@ -12,6 +12,8 @@ rev=rev*10+digit;
 temp=temp/10;
 }
 if(num==rev)
-printf("the number %d is palindrome",num);
-return 0;
+printf("the number %d is palindrome",num);  
+else
+printf("The no %d is not a palindrome no",num);
+  return 0;
 }
